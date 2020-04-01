@@ -121,7 +121,7 @@
     <Content Include="img\sorethroat.png" />
     <Content Include="main.js" />
     <Content Include="Web.config" />
-    <Content Include="index.aspx" />
+    <Content Include="index.html" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -144,10 +144,10 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <Compile Include="index.aspx.designer.vb">
-      <DependentUpon>index.aspx</DependentUpon>
+      <DependentUpon>index.html</DependentUpon>
     </Compile>
     <Compile Include="index.aspx.vb">
-      <DependentUpon>index.aspx</DependentUpon>
+      <DependentUpon>index.html</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>
