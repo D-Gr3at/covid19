@@ -29,10 +29,6 @@
             cursor: pointer;
         }
 
-        .card {
-            background-color: azure;
-        }
-
         @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 
             /* Styles */
@@ -42,7 +38,7 @@
         }
     </style>
 </head>
-<body>
+<body onload="tester()">
     <form id="form1" runat="server">
         <div class="container-md">
             <div class="d-flex justify-content-center  mt-2">
@@ -118,7 +114,7 @@
                     <div class="d-flex justify-content-center m-3">
                         <div class=" card shadow shadow-sm">
                             <div class="card-body">
-                                <center><img src="img/c2.png" class=" img-fluid"></center>
+                                <center><img src="img/coughing.png" class=" img-circle" width="250" height="180"></center>
                                 <h2 class="mb-5 text-center">Do you have cough?</h2>
                                 <div class="input-group mb-3">
                                     <input type="button" value="YES"
@@ -140,7 +136,7 @@
                     <div class="d-flex justify-content-center m-3">
                         <div class=" card shadow shadow-sm">
                             <div class="card-body">
-                                <center><img src="img/coldd.png" class=" img-fluid"></center>
+                                <center><img src="img/cold.jpg" class=" img-circle" width="250" height="180"></center>
                                 <h2 class="mb-5 text-center">Do you have a cold?</h2>
                                 <div class="input-group mb-3">
                                     <input type="button" value="YES"
@@ -163,7 +159,7 @@
                         <div class=" card shadow shadow-sm">
                             <div class="card-body">
 
-                                <center><img src="img/icons8-diarrhea-100.png" class=" img-fluid"></center>
+                                <center><img src="img/diarrhea.jpg" class=" img-circle" width="280" height="180"></center>
                                 <h2 class="mb-4 text-center">Are you having
                                     <br>
                                     Diarrhea?</h2>
@@ -189,7 +185,7 @@
                         <div class=" card shadow shadow-sm">
                             <div class="card-body">
 
-                                <center><img src="img/sorethroat.png" class=" img-fluid"></center>
+                                <div style="text-align: center;"><img src="img/sorethroat.jpg" class="img-circle" width="300" height="200"></div>
                                 <h2 class="mb-4 text-center">Are you having
                                     <br>
                                     sorethroat?</h2>
@@ -453,7 +449,7 @@
                     <span class="text-center">Powered by<br>
                         <a href="https://web.facebook.com/ndcnigeria/">
                             <img
-                                src="img/ndc-clinic.jpeg" class="img-fluid" width="70"
+                                src="img/ndc-clinic.jpeg" class="img-circle" width="70"
                                 height="70"></a></span>
                 </div>
             </div>
